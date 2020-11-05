@@ -1,0 +1,12 @@
+{% load static wagtailuserbar %}
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+   {% include 'head.html' %}
+
+    <body>
+        {% block content %}{% endblock %}
+
+        {% include 'scripts.html' %}
+    </body>
+</html>
